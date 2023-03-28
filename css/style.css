@@ -286,3 +286,90 @@ header nav ul li:hover {
 .works_images_size {
     padding-right: 18px;
 }
+
+/*  Recent posts  */
+
+.recent_posts {
+    background-color: #EDF7FA;
+    padding-top: 7px;
+    padding-bottom: 37px;
+    box-sizing: border-box;
+}
+.recent_posts_container {
+    max-width: 856px;
+    margin: auto;
+}
+.recent_posts .recent_posts_container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recent_posts .recent_posts_container div h4 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.recent_posts .recent_posts_container div a{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.recent_posts_box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recent_posts_box article{
+    width: 372px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 23px;
+}
+
+.recent_posts_box article h3 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    padding-bottom: 17px;
+}
+.recent_posts_box article h4 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    display: inline;
+    padding-right: 40px;
+    padding-bottom: 11px;
+}
+.recent_posts_box article h5 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    display: inline;
+    border-left: 1px solid #000000;
+    padding-left: 40px;
+}
+.recent_posts_box article p {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
