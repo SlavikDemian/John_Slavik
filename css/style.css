@@ -238,7 +238,7 @@ header nav ul li:hover {
     padding-bottom: 15px;
 }
 .section_works_headline {
-    font-family: 'Heebo';
+    font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -333,7 +333,6 @@ header nav ul li:hover {
     border-radius: 4px;
     padding: 23px;
 }
-
 .recent_posts_box article h3 {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
@@ -341,20 +340,27 @@ header nav ul li:hover {
     font-size: 26px;
     line-height: 38px;
     color: #21243D;
-    padding-bottom: 17px;
+    padding-bottom: 6px;
 }
-.recent_posts_box article h4 {
+.recent_posts_box article p {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.recent_posts_span_date {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 48px;
     color: #21243D;
     display: inline;
     padding-right: 40px;
-    padding-bottom: 11px;
 }
-.recent_posts_box article h5 {
+.recent_posts_span_text {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -364,12 +370,4 @@ header nav ul li:hover {
     display: inline;
     border-left: 1px solid #000000;
     padding-left: 40px;
-}
-.recent_posts_box article p {
-    font-family: 'Heebo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #21243D;
 }
