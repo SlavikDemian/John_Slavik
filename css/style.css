@@ -299,7 +299,7 @@ header nav ul li:hover {
     max-width: 856px;
     margin: auto;
 }
-.recent_posts .recent_posts_container div {
+.recent_posts_header_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -340,7 +340,7 @@ header nav ul li:hover {
     font-size: 26px;
     line-height: 38px;
     color: #21243D;
-    padding-bottom: 6px;
+    padding-bottom: 17px;
 }
 .recent_posts_box article p {
     font-family: 'Heebo', sans-serif;
@@ -349,16 +349,17 @@ header nav ul li:hover {
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
+    padding-top: 11px;
 }
 .recent_posts_span_date {
     font-family: 'Heebo', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 48px;
+    line-height: 26px;
     color: #21243D;
     display: inline;
-    padding-right: 40px;
+    padding-right: 26px;
 }
 .recent_posts_span_text {
     font-family: 'Heebo', sans-serif;
@@ -368,6 +369,10 @@ header nav ul li:hover {
     line-height: 26px;
     color: #21243D;
     display: inline;
-    border-left: 1px solid #000000;
-    padding-left: 40px;
 }
+.recent_posts_span_text::before {
+    content: "";
+    border-left: 1px solid #000000;
+    font-size: 14px;
+    padding-right: 26px;
+    }
